@@ -1,5 +1,5 @@
 ## Live 10 Theme File Parser
-Simple Python script to parse Live 10 and output <br>
+Simple Python script to parse Live 10 theme file (*.ask) and output tsv file.<br>
 Confirmed operational with Python 3.7.1<br>
 
 ### Usage
