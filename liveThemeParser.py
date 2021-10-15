@@ -14,7 +14,7 @@ if len(sys.argv) != 2:
     sys.exit()
 
 try:
-    outfile = os.path.splitext(os.path.basename('00Light.xml'))[0] + "_result.txt"
+    outfile = os.path.splitext(os.path.basename(sys.argv[1]))[0] + "_result.txt"
     root = ET.parse(sys.argv[1])
     with open(outfile, "w") as f:
         for element in root.findall("./SkinManager//R/.."):
